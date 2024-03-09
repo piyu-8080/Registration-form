@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title >Registration Form</title>
+  <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="j1.js"></script>
+</head>
+<body>
+    <div class="background">
+  <h1 style="text-align: center; font-size:50px;">Registration form</h1>
+  
+    <div class="transbox">
+  <form action="first.php"  method="post" >
+
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required>
+    <br>
+
+    <label for="address">Address:</label>
+    <textarea name="address" id="address"></textarea>
+    <br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender"  value="male" required>
+    <span class="male">Male</span>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <span class="female">Female</span>
+    <br>
+
+    <label for="DOB">DOB:</label>
+    <input type="date" name="date" id="date" required>
+    <br>
+     
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <br>
+    <label for="photo">Photo:</label>
+    <input type="file" name="photo" id="photo" accept="image/*" required>
+    <br>
+
+    <label for="phone_number">Phone Number:</label>
+    <input type="tel" name="phone_number" pattern="[0-9]{10}" id="phone_number" required>
+    
+    <br>
+    
+    <button class="button button1" name="save" onclick="onsubmit()">Submit</button>
+    
+  </form>
+  </div>
+  </div>
+</body>
+</html>

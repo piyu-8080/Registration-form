@@ -1,0 +1,22 @@
+body{
+    background: url(2.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px #1a0330;
+}
+
+thead{
+    font-weight:bolder;
+    font-size:xx-large;
+}
+
+.table-hover tbody tr:hover {
+    background-color: hsl(258, 6%, 69%);
+     /* Change background color on hover */
+}
+td {
+    background-color: #14032d;
+}
